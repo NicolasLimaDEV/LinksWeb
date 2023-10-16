@@ -22,7 +22,7 @@ export default function App(){
           <h1>Nicolas Lima</h1>
             <h3>Desenvolvedor Frontend</h3>
 
-            <button onClick={themeToggler}>Alterar tema</button>
+            <button onClick={themeToggler}>Alterar temas</button>
       </Container>
     </ThemeProvider>
   )
