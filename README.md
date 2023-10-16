@@ -1,7 +1,7 @@
 # Links Web
 
 A ideia do projeto é uma cópia do LinkTree! 
-Feito em ReactJS e Styled Componentes
+Feito em **ReactJS** e **Styled Componentes**
 
 Na foto abaixo, é possível trocar toda a cor do tema através dessas linhas de códigos
 
