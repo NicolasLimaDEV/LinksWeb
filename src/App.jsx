@@ -5,6 +5,7 @@ import { Container } from './styles'
 import { lightTheme, darkTheme } from './theme'
 import { GlobalStyles } from './GlobalStyle'
 
+import Links from './components/Links'
 
 export default function App(){
 
@@ -22,7 +23,11 @@ export default function App(){
           <h1>Nicolas Lima</h1>
             <h3>Desenvolvedor Frontend</h3>
 
-            <button onClick={themeToggler}>Alterar temas</button>
+            <button onClick={themeToggler}>Alterar tema</button>
+
+            <Links />
+
+            <span>By: nicolaslimadev</span>
       </Container>
     </ThemeProvider>
   )

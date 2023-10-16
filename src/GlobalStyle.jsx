@@ -5,9 +5,10 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    
+    font-family: 'Inter', sans-serif;
 
     background-color: ${props => props.theme.body};
   }
